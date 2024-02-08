@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.fondonegro{
+	background-color: black;
+}
+.logoderecha{
+	transform: translateX(20px) translateY(5px);
+}
+.Web{
+	transform: translateX(20px);
+}
+.morado{
+	color: mediumpurple;
+}
