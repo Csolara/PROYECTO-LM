@@ -1,13 +1,24 @@
 @charset "UTF-8";
-.fondonegro{
+
+.fondonegro {
 	background-color: black;
 }
-.logoderecha{
+
+.logoderecha {
 	transform: translateX(20px) translateY(5px);
 }
-.Web{
+
+.Web {
 	transform: translateX(20px);
 }
-.morado{
+
+.morado {
 	color: mediumpurple;
+}
+.centro{
+	text-align: center;
+}
+.carru{
+	margin-top: 75px;
+	height: 250px;
 }
