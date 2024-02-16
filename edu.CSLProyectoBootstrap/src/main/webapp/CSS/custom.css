@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+	background-image: url(selva.webp);
+}
+
 .fondonegro {
 	background-color: black;
 }
@@ -16,22 +20,52 @@
 	color: mediumpurple;
 	border: white;
 }
-.centro{
+
+.centro {
 	text-align: center;
 }
-.carru{
-	margin-top: 75px;
+
+.carru {
+	margin-top: 70px;
 	height: 250px;
 }
-.centro{
+
+.centro {
 	text-align: center;
 }
-.rex{
+
+.rex {
 	transform: translateX(100px);
 }
-.contrex{
-	margin-top: 40px;
+
+.contrex {
+	margin-top: 70px;
 }
-.spino{
+
+.spino {
 	transform: translateX(200px);
+}
+
+.stego {
+	transform: translateY(50px);
+}
+
+.agrandar:hover {
+	transform: scale(1.4);
+}
+
+.trike {
+	transform: translateY(40px);
+}
+
+.trice {
+	transform: translateY(100px);
+}
+
+.anky {
+	transform: translateY(30px);
+}
+
+.margenabajo {
+	margin-bottom: 70px;
 }
