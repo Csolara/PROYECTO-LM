@@ -29,49 +29,87 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="derecha navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item dropdown">
-						<a class="Web nav-link" href="#" role="button" data-bs-toggle="dropdown">
-							<div class="morado"><b>Jurásico</b></div>
-						</a>						
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Carnívoros</a></li>
-							<li><a class="dropdown-item" href="#">Herbívoros</a></li>
-							<li><a class="dropdown-item" href="#">Omnívoros</a></li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="Web nav-link" href="#" role="button" data-bs-toggle="dropdown">
-							<div class="morado"><b>Cretácico</b></div>
-						</a>						
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Carnívoros</a></li>
-							<li><a class="dropdown-item" href="#">Herbívoros</a></li>
-							<li><a class="dropdown-item" href="#">Omnívoros</a></li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="Web nav-link" href="#" role="button" data-bs-toggle="dropdown">
-							<div class="morado"><b>Triásico</b></div>
-						</a>						
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Carnívoros</a></li>
-							<li><a class="dropdown-item" href="#">Herbívoros</a></li>
-							<li><a class="dropdown-item" href="#">Omnívoros</a></li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="Web nav-link" href="HIBRIDOS.html" role="button" data-bs-toggle="dropdown">
-							<div class="morado"><b>HÍBRIDOS</b></div>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="JURASICO.html" role="button">
+							<div class="morado">
+								<b>Jurásico</b>
+							</div>
 						</a>
 					</li>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="CRETACICO.html" role="button">
+							<div class="morado">
+								<b>Cretácico</b>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="TRIASICO.html" role="button">
+							<div class="morado">
+								<b>Triásico</b>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="HIBRIDOS.html" role="button">
+							<div class="morado">
+								<b>HÍBRIDOS</b>
+							</div>
+						</a></li>
 				</ul>
 				<a href="Carrito.html"><img type="button" src="imagenes/carrito morado.png" width="60" height="60"></a>
-				<form class="d-flex" role="search">
-				</form>
+				<form class="d-flex" role="search"></form>
 			</div>
 		</div>
 	</nav>
 
+	<fieldset class="fondoblanco contrex">
+		<legend class="ENVIO"><b>FORMULARIO DE ENVÍO</b></legend>
+		<form>
+			<div>
+				<input class="MI" required type="text" maxlength="40" placeholder="Calle"><input class="MI" required
+					type="text" maxlength="40" placeholder="Codigo postal"><input class="MI" required type="text"
+					maxlength="40" placeholder="Bloque">
+			</div>
+			<div class="contrex">
+				<select class="MI" required name="Provincia">
+					<option value="" disabled selected>Provincia</option>
+					<option value="0">Sevilla</option>
+					<option value="1">Huelva</option>
+					<option value="2">Cádiz</option>
+					<option value="3">Málaga</option>
+					<option value="4">Granada</option>
+					<option value="5">Córdoba</option>
+					<option value="6">Jaén</option>
+					<option value="7">Almería</option>
+				</select>
+				<select class="MI" required name="transporte">
+					<option value="" disabled selected>Transporte dinosaurio</option>
+					<option value="0">Via marina</option>
+					<option value="1">Via terrestre</option>
+					<option value="2">Via aerea</option>
+				</select>
+			</div>
+			<div class="contrex margenabajo">
+				<input class="MI" required type="text" maxlength="40" placeholder="Numero telefonico"><input class="MI"
+					required type="text" maxlength="40" placeholder="Correo electronico">
+			</div>
+		</form>
+	</fieldset>
+	<fieldset class="fondoblanco">
+		<legend class="ENVIO"><b>FORMULARIO DE PAGO</b></legend>
+		<div>
+			<input class="MI" required type="text" maxlength="40" placeholder="Nombre"><input class="MI" required
+				type="text" maxlength="40" placeholder="Apellidos"><input class="MI" required type="text" maxlength="40"
+				placeholder="DNI/NIE">
+		</div>
+		<div class="contrex">
+			<div class="MI"><b>Numero tarjeta bancaria</b></div>
+			<input class="MI col-4" required type="text" maxlength="80" placeholder="####-####-####-####">
+		</div>
+		<div class="contrex margenabajo">
+			<div class="MI"><b>Fecha vencimiento</b><b class="MIM">CVC</b></div>
+			<input class="MI" required type="text" maxlength="40" placeholder="##/##"><input class="MI" required
+				type="text" maxlength="40" placeholder="###">
+		</div>
+		<button class="enviar MI margenabajo" type="submit">Enviar</button>
+	</fieldset>
 </body>
 
 </html>

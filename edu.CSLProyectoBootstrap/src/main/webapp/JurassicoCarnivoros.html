@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="CSL">
+	<meta name="description" content="Proyecto de LM con Bootstrap">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="CSS/custom.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<title>Carnívoros</title>
+</head>
+
+<body>
+
+	<nav class="fondonegro navbar navbar-expand-lg fixed-top">
+		<a href="index.html"><img class="logoderecha" type="button" src="imagenes/copia BK2.png" width="176"
+				height="60"></a>
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="derecha navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item dropdown"><a class="Web nav-link" href="JURASICO.html" role="button">
+							<div class="morado">
+								<b>Jurásico</b>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="CRETACICO.html" role="button">
+							<div class="morado">
+								<b>Cretácico</b>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="TRIASICO.html" role="button">
+							<div class="morado">
+								<b>Triásico</b>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown"><a class="Web nav-link" href="HIBRIDOS.html" role="button">
+							<div class="morado">
+								<b>HÍBRIDOS</b>
+							</div>
+						</a></li>
+				</ul>
+				<a href="Carrito.html"><img type="button" src="imagenes/carrito morado.png" width="60" height="60"></a>
+				<form class="d-flex" role="search"></form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="fixed-top d-flex flex-column flex-shrink-0 text-bg-dark margenmenu"
+		style="width: 200px; height: 840px;">
+		<hr>
+		<ul class="nav nav-pills flex-column mb-auto">
+			<li>
+				<a href="JurassicoCarnivoros.html" class="disabled botones nav-link text-danger">
+					<svg class="bi pe-none me-2" width="12" height="16">
+						<use xlink:href="#table" />
+					</svg>
+					Carnívoros
+				</a>
+			</li>
+			<li class="menu">
+				<a href="JurassicoHervivoros.html" class="botones nav-link text-white">
+					<svg class="bi pe-none me-2" width="12" height="16">
+						<use xlink:href="#table" />
+					</svg>
+					Hervívoros
+				</a>
+			</li>
+			<li class="menu">
+				<a href="JurassicoOmnivoros.html" class="botones nav-link text-white">
+					<svg class="bi pe-none me-2" width="12" height="16">
+						<use xlink:href="#table" />
+					</svg>
+					Omnívoros
+				</a>
+			</li>
+		</ul>
+		<hr>
+	</div>
+
+	<div class="container rojo JURASICO margenizquierda contrex">
+		<div class="row justify-content-evenly">
+			<b>JURÁSICO</b>
+		</div>
+	</div>
+
+	<div class="container contrex margenizquierda">
+		<div class="row justify-content-evenly">
+			<div class="fondonegro agrandar col-3 border rounded" type="button">
+				<a href="T-Rex.html">
+					<div class="row">
+						<img src="imagenes/dinosaurios/rex.png" height="300">
+					</div>
+					<div class="row">
+						<div class="morado" align="center">Tyranosaurus rex</div>
+					</div>
+				</a>
+			</div>
+			<div class="fondonegro agrandar col-3 border rounded" href="#" type="button">
+				<a href="Velociraptor.html">
+					<div class="row">
+						<img src="imagenes/dinosaurios/velociraptor.webp" height="300">
+					</div>
+					<div class="row">
+						<div class="morado" align="center">Velociraptor</div>
+					</div>
+				</a>
+			</div>
+			<div class="fondonegro agrandar col-3 border rounded" href="#" type="button">
+				<a href="Ceratosaurus.html">
+					<div class="row">
+						<img src="imagenes/dinosaurios/ceratosaurus.webp" height="300">
+					</div>
+					<div class="row">
+						<div class="morado" align="center">Ceratosaurus</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
